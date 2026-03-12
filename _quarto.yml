@@ -1,9 +1,10 @@
 project:
   type: website
   output-dir: .
-  
+
 website:
   title: "my-website"
+  site-url: "/my-website/"
   navbar:
     left:
       - href: index.qmd
@@ -17,6 +18,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
